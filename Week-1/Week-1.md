@@ -3,4 +3,8 @@
 
 - Session 2
   - [Poem Webpage](Session-2/Poem/index.html)
-  - [Hometown Webpage](Session-2/Hometown/index.html)
+  - [Favorite Musician Fan Webpage](Session-2/Fav_Musician/index.html)
+  - [HTML Tables](Session-2/Tables_and_List/index.html)
+  - [News Article Webpage](Session-2/News_Article/index.html)
+
+- Session 3
