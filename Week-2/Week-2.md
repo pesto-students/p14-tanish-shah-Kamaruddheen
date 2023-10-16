@@ -10,3 +10,4 @@
   - [Best Selling Video Games Table](Session-5/Games_Table/index.html)
   - [News Article](Session-5/News_Article/index.html)
   - [Sleep Recommendation List](Session-5/Sleep_List/index.html)
+  - [Style the form with advanced selectors](Session-5/Product_Rating/index.html)
