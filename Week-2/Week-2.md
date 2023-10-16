@@ -7,4 +7,6 @@
 
 - Session 5
   - [Auto Loan](Session-5/Auto_Loan/index.html)
-  - [Auto Loan](Session-5/Games_Table/index.html)
+  - [Best Selling Video Games Table](Session-5/Games_Table/index.html)
+  - [News Article](Session-5/News_Article/index.html)
+  - [Sleep Recommendation List](Session-5/Sleep_List/index.html)
