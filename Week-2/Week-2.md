@@ -4,3 +4,7 @@
   - [Starting Lineup](Session-4/Starting_Lineup/index.html)
   - [Your Favourite Musician Webpage](Session-4/Fav_Musician/index.html)
   - [Restaurant Reviews](Session-4/Restaurant_Reviews/index.html)
+
+- Session 5
+  - [Auto Loan](Session-5/Auto_Loan/index.html)
+  - [Auto Loan](Session-5/Games_Table/index.html)
