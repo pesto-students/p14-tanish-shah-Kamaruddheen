@@ -11,3 +11,8 @@
   - [News Article](Session-5/News_Article/index.html)
   - [Sleep Recommendation List](Session-5/Sleep_List/index.html)
   - [Style the form with advanced selectors](Session-5/Product_Rating/index.html)
+
+- Session 6
+  - [Recipe with flexbox](Session-6/Recipe_with_flexbox/index.html)
+  - [Position the playing cards](Session-6/Playing_Cards/index.html)
+  - [Tic-tac-toe game with grid layout](Session-6/Tic_Tac_Toe/index.html)
