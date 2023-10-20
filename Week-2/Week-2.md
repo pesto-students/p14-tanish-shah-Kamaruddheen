@@ -17,4 +17,5 @@
   - [Recipe with flexbox](Session-6/Recipe_with_flexbox/index.html)
   - [Position the playing cards](Session-6/Playing_Cards/index.html)
   - [Tic-tac-toe game with grid layout](Session-6/Tic_Tac_Toe/index.html)
+  - [CSS Pratice](Session-6/CSS_Pratice/index.html)
   - [Style the song](Session-6/Style_Song/index.html)

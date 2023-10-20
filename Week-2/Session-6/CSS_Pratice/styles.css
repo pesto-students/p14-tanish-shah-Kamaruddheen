@@ -1,0 +1,40 @@
+h1 {
+    font-size: 16pt;
+    font-family: Arial;
+    color: blue;
+    font-style: italic;
+}
+
+main {
+    width: 600px;
+    height: 280px;
+    border: 2px solid blue;
+    padding: 5px;
+    background-color: #f0f0f0;
+}
+
+div:nth-child(2) {
+    background-color: yellow;
+    float: left;
+    width: 200px;
+    padding: 10px;
+    margin: 0 10px 0 0;
+}
+
+div:nth-child(4) {
+    background-color: orange;
+    position: absolute;
+    left: 110px;
+    top: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+div:nth-child(5) {
+    background-color: rgb(255, 80, 0);
+    color: white;
+    float: right;    
+    width: 200px;
+    padding: 10px;
+    margin: 20px 40px 0 0;
+}
