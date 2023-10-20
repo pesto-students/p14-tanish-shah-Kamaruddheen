@@ -1,0 +1,31 @@
+p:nth-child(5) {
+    background: revert;
+    box-shadow: revert;
+    padding: revert;
+}
+
+a {
+    font-size: 12px;
+}
+ 
+/* Add styles here */
+body {
+    font-family: Arial;
+    background: radial-gradient(white, lightgray);
+}
+
+h1 {
+    color: darkblue;
+    padding: 8px;
+    text-shadow: 5px 5px 6px gray;
+}
+
+p {
+    color: white;
+    width: 350px;
+    font-size: 16px;
+    padding: 10px;
+    background: linear-gradient(145deg, rgba(5,2,93,1) 0%, rgba(121,184,225,1) 100%);
+    text-shadow: 5px tpx 6px gray;
+    border-radius: 5px;
+}

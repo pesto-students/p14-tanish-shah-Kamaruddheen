@@ -13,6 +13,8 @@
   - [Style the form with advanced selectors](Session-5/Product_Rating/index.html)
 
 - Session 6
+  - [Animating the answer](Session-6/Animating_Answer/Assignment_animate_answer.html)
   - [Recipe with flexbox](Session-6/Recipe_with_flexbox/index.html)
   - [Position the playing cards](Session-6/Playing_Cards/index.html)
   - [Tic-tac-toe game with grid layout](Session-6/Tic_Tac_Toe/index.html)
+  - [Style the song](Session-6/Style_Song/index.html)
