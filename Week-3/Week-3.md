@@ -6,3 +6,6 @@
 
 - Session 8
   - No Assignments
+
+- Session 9
+  - [JavaScript arrays](Session-9/JS_Arrays/index.html)
