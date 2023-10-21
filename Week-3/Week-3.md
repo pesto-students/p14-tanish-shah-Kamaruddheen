@@ -9,3 +9,4 @@
 
 - Session 9
   - [JavaScript arrays](Session-9/JS_Arrays/index.html)
+  - [JavaScript number guessing game](Session-9/Guessing_Game/index.html)
