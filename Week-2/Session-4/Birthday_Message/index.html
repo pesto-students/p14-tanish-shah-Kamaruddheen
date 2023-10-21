@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday message creator</title>
+</head>
+<body>
+    <form>
+        <h1>Happy Birthday Message Creator</h1>
+        <!-- Message to be written to birthday person -->
+        <div>
+            <label for="message">Message?</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <input type="text" name="message" id="message" placeholder="Happy Birthday!">
+        </div> <br>
+        <!-- Email address of birthday person -->
+        <div>
+            <label for="email">Email address?</label>&emsp;&emsp;&emsp;&ensp;&nbsp;
+            <input type="text" name="email" id="email"
+            pattern="[a-zA-Z0-9-_\.]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*" placeholder="name@domain.com">
+        </div> <br>
+        <!-- When message needs to be sent -->
+        <div>
+            <label for="date">Date to send?</label>&emsp;&emsp;&emsp;&emsp;&nbsp;
+            <input type="date" name="date" id="date">
+        </div> <br>
+        <!-- In what color should the message to be sent -->
+        <div>
+            <label for="color">Message color?</label>&emsp;&emsp;&emsp;&ensp;
+            <input type="color" name="color" id="color">
+        </div> <br>
+        <!-- How mant number of times the message blinks -->
+        <div>
+            <label for="blinks">Number of blinks?</label>&emsp;&emsp;
+            <input type="number" name="blinks" id="blinks" min="0" max="10" value="0">
+        </div> <br>
+        <!-- Volume of music level -->
+        <div>
+            <label for="volume">Music Volume?</label>&emsp;&emsp;&emsp;
+            <input type="range" name="volume" id="volume" min="0" max="50" value="20">
+        </div> <br>
+        <!-- Send button -->
+        <button type="submit">Send Birthday Message</button>
+    </form>
+</body>
+</html>

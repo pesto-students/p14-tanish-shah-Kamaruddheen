@@ -1,0 +1,21 @@
+- Session 4
+  - [Form for joining a social network](Session-4/Social_Network/index.html)
+  - [Birthday Message Creator](Session-4/Birthday_Message/index.html)
+  - [Starting Lineup](Session-4/Starting_Lineup/index.html)
+  - [Your Favourite Musician Webpage](Session-4/Fav_Musician/index.html)
+  - [Restaurant Reviews](Session-4/Restaurant_Reviews/index.html)
+
+- Session 5
+  - [Auto Loan](Session-5/Auto_Loan/index.html)
+  - [Best Selling Video Games Table](Session-5/Games_Table/index.html)
+  - [News Article](Session-5/News_Article/index.html)
+  - [Sleep Recommendation List](Session-5/Sleep_List/index.html)
+  - [Style the form with advanced selectors](Session-5/Product_Rating/index.html)
+
+- Session 6
+  - [Animating the answer](Session-6/Animating_Answer/Assignment_animate_answer.html)
+  - [Recipe with flexbox](Session-6/Recipe_with_flexbox/index.html)
+  - [Position the playing cards](Session-6/Playing_Cards/index.html)
+  - [Tic-tac-toe game with grid layout](Session-6/Tic_Tac_Toe/index.html)
+  - [CSS Pratice](Session-6/CSS_Pratice/index.html)
+  - [Style the song](Session-6/Style_Song/index.html)

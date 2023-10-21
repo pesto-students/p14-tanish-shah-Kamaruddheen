@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add reviews</title>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Reviews</h1>
+        <nav>
+            <a href="index.html">Home</a>&emsp;
+            <a href="add_reviews.html">Add Review</a>&emsp;
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    <section>
+        <form action="#">
+            <h1>Add Review</h1>
+            <section>
+                <label for="name">Name?</label>
+                <input type="text" name="name" id="name">
+            </section> <br>
+            <section>
+                <label for="restaurant">Restaurant?</label>
+                <select name="restaurant" id="restaurant">
+                    <option value="Choose one...">Choose one...</option>
+                    <option value="greekhouse">Greek House</option>
+                    <option value="mainstreetcafe">Main Street Cafe</option>
+                </select> 
+            </section> <br>
+            <section>
+                <label for="date">Date of visit?</label>
+                <input type="date" name="date" id="date">
+            </section> <br>
+            <section>
+                <label for="rating">Rating?</label>
+                <input type="number" name="rating" id="rating" min="1" max="5" value="5">
+            </section> <br>
+            <section>
+                <label for="details">Details?</label>
+                <textarea name="details" id="details" cols="30" rows="5"></textarea>
+            </section> <br>
+            <!-- Send button -->
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p id="about">&#169; 2022 Restaurant Reviews</p>
+    </footer>
+</body>
+</html>
