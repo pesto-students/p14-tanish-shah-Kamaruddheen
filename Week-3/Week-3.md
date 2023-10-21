@@ -1,4 +1,8 @@
 
 - Session 7
+  - [Bootstrap for a vacation website](Session-7/Vacation_website/index.html)
   - [Media queries for a vacation website](Session-7/Media_Queries/index.html)
   - [Responsive images for a vacation website](Session-7/Responsive_Images/index.html)
+
+- Session 8
+  - No Assignments
