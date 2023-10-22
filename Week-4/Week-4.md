@@ -1,2 +1,3 @@
 - Session 10
   - [JavaScript loops](Session-10/Loops/index.html)
+  - [JavaScript maps](Session-10/Maps/index.html)
