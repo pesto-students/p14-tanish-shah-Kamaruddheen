@@ -1,4 +1,5 @@
 - Session 10
+  - [Call, Bind, and Apply](Session-10/Call_Bind_Apply/index.html)
   - [Closures](Session-10/Closures/index.html)
   - [JavaScript loops](Session-10/Loops/index.html)
   - [JavaScript maps](Session-10/Maps/index.html)
