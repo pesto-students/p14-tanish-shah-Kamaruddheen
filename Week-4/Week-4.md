@@ -1,4 +1,5 @@
 - Session 10
+  - [Closures](Session-10/Closures/index.html)
   - [JavaScript loops](Session-10/Loops/index.html)
   - [JavaScript maps](Session-10/Maps/index.html)
   - [JavaScript this keyword](Session-10/This_Keyword/index.html)
