@@ -7,3 +7,4 @@
 
 - Session 11
   - [JavaScript game object](Session-11/Game_Object/index.html)
+  - [Practice: OOPS ES6](Session-11/OOPS_Practice_ES6/index.html)
