@@ -1,8 +1,9 @@
-import { access_key } from './module.js' // importing access key using package.json
+// import { access_key } from './module.js' // importing local access key using package.json
 
 async function getExchangeRate(currencyCode) {
   
-  let access_key = access_key() // access key for exchange rate from local
+  // let access_key = access_key() // local access key for exchange rate
+  let access_key = "<your_access_key>" // access key for exchange rate
   let from = "EUR" // base curreny
 
   // Getting response from exchangerate API - base curreny EUR
@@ -11,6 +12,9 @@ async function getExchangeRate(currencyCode) {
   // API JSON response
   let data = await response.json()
   console.log(data) 
+
+  // Unsuccessful Response like Access Restricted or Curreny doesn't exists
+  if(data["success"] == false) return null
 
   // Fetcing exchange rate of EUR to USD
   let ex_rate = data["result"]
@@ -34,14 +38,12 @@ terms: "https://currencylayer.com/terms"
 
 
 
-getExchangeRate("USD")
-
-.then((rate) => {
-  console.log(rate) // Output: 1.0579 
-}).catch((error) => {
-  console.error(error)
-})
-
+getExchangeRate("XYZ")
+  .then((rate) => {
+    console.log(rate) // Output: 1.0579 
+  }).catch((error) => {
+    console.error(error)
+  })
 
 /*
 
