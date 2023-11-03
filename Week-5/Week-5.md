@@ -1,0 +1,2 @@
+- Session 13
+  - [Memoize](Session-13/Memoize/memoize.js)
