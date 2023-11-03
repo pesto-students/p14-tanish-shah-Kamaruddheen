@@ -1,3 +1,4 @@
 - Session 13
+  - [Generators](Session-13/Generators/generators.js)
   - [Memoize](Session-13/Memoize/memoize.js)
   - [Symbols](Session-13/Symbols/symbols.js)
