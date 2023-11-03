@@ -1,2 +1,3 @@
 - Session 13
   - [Memoize](Session-13/Memoize/memoize.js)
+  - [Symbols](Session-13/Symbols/symbols.js)
