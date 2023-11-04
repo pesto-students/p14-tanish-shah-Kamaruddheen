@@ -5,4 +5,5 @@
 
 - Session 14
   - [Move the heart image with a timer](Session-14/Move_heart_image/animate.js)
+  - [WindowObject](Session-14/Window_Object/index.html)
 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with the Window Object</title>
+    <script defer>
+        function displayWindowProperties() {
+            console.log("User Agent      : " + navigator.userAgent);
+            console.log("Screen Width    : " + screen.width);
+            console.log("Screen Height   : " + screen.height);
+            console.log("Location href   : " + location.href);
+            console.log("Location path   : " + location.pathname);
+            sessionStorage.setItem("session", "session variable")
+            console.log("Session Storage : " + sessionStorage.getItem("session"));
+            localStorage.setItem("local", "local variable")
+            console.log("Local Storage   : " + localStorage.getItem("local"));
+        }
+    </script>
+</head>
+<body onload="displayWindowProperties()">
+    The following properties of the Window object are displayed in the console:
+    <ul>
+        <li>User agent string</li>
+        <li>Screen width and height</li>
+        <li>Current URL and path</li>
+        <li>Data stored in sessionStorage and localStorage</li>
+    </ul> 
+</body>
+</html>
