@@ -73,55 +73,62 @@ function checkForWinner() {
 function newGame() {
 	// TODO: Complete the function
 
+	// Resetting Computer Move Timeout's
 	clearTimeout(computerMoveTimeout)
-	setTimeout.computerMoveTimeout = 0
+	computerMoveTimeout = 0
 
 	for (let button of getGameBoardButtons()) {
+		// Resetting property to all button
 		button.innerHTML = ""
 		button.disabled = false
 		button.className = ""
 	}
 
+	// Initiating player's turn as True so that player can start first in New Game
 	playerTurn = true
-	document.getElementById("turnInfo").innerHTML = "Your turn"
+	document.getElementById("turnInfo").innerHTML = "Your turn" // Changing status in frontend
 }
 
 function boardButtonClicked(button) {
 	// TODO: Complete the function
 
 	if (playerTurn) {
-		button.target.innerHTML = "X"
-		button.target.className += "x"
-		button.target.disabled = true
-	}
+		// Applying property to 'X' button
+		button.innerHTML = "X"
+		button.className = "x"
+		button.disabled = true
 
-	switchTurn()
+		// Switch back to the computer's turn
+		switchTurn()
+	}
+	
 }
 
 function switchTurn() {
 	// TODO: Complete the function		
-	let gameStatusValue = checkForWinner()
+	let gameStatusValue = checkForWinner() // Checking game status 
+	console.log("Game status : " + checkForWinner());
 
+	// Checking game is over or not
 	if (gameStatusValue === 1) {
-		// If more moves are left
 
+		// After player taken their turn, now making computer to play
 		if (playerTurn) {
-			// delaying 1000 milliseconds to make player think like computer is taking so much
-			computerMoveTimeout = setTimeout(makeComputerMove(), 1000) 		
-			playerTurn = false
-			document.getElementById("turnInfo").innerHTML = "Your turn"
-		} else {
-			playerTurn = true
-			document.getElementById("turnInfo").innerHTML = "Computer's turn"
+			// Delaying 1000 milliseconds to make player think like computer is taking so much
+			computerMoveTimeout = setTimeout(makeComputerMove, 1000) 					
+		}
 
-		}				
+		// Toggle playerTurn's value from false to true or from true to false
+		playerTurn = !playerTurn
 
-	}
-	
-	if (gameStatusValue > 1) {
+		// Changing status in frontend based on Boolean Value
+		document.getElementById("turnInfo").innerHTML = playerTurn ? "Your turn" : "Computer's turn"
+
+	} else {
 		// To prevent the user from being able to place an X after the game is over
 		playerTurn = false
 
+		// Checking who won the game or is it a draw
 		switch (gameStatusValue) {
 			case 2:
 				document.getElementById("turnInfo").innerHTML = "You win!"
@@ -134,7 +141,8 @@ function switchTurn() {
 			case 4:
 				document.getElementById("turnInfo").innerHTML = "Draw game"
 				break;
-		
+			
+			// Other than 2, 3, 4 value - switch statement should break
 			default:
 				break;
 		}
@@ -144,23 +152,27 @@ function switchTurn() {
 function makeComputerMove() {
 	// TODO: Complete the function
 
-	// TODO: Random generation needs to be improved
+	let button = getGameBoardButtons() // list of all button elements
+	let random_button = Math.floor(Math.random() * 9) // generating random number btw 0 to 9
+	console.log("Random number : " + random_button)
 
-	let empty_buttons = []
+	// Checking button element already has value or not
+	while (button[random_button].innerHTML !== "") {
+		console.log("Exsiting element : " + button[random_button].innerHTML)
 
-	// sorting the avaialbe buttons for computer to choose randomly
-	for (let button of getGameBoardButtons()) {
-		if (!button.innerHTML) {
-			empty_buttons.push(button)
-		}
+		// If button has value, looping again with new random number
+		random_button = Math.floor(Math.random() * 9) // generating random number btw 0 to 9
 	}
 
-	let random_button = Math.random() * 0 // 0 to 9
+	if (button[random_button].innerHTML === "") {
+		console.log("Button going to be changed : ", button[random_button])
+		
+		// Applying property to 'O' button
+		button[random_button].innerHTML = "O"
+		button[random_button].className = "o"
+		button[random_button].disabled = true
+	}
 	
-	empty_buttons[random_button].target.innerHTML = "O"
-	empty_buttons[random_button].target.className = "o"
-	empty_buttons[random_button].target.disabled = true	
-
 	// switch back to the player's turn
 	switchTurn()
 }
