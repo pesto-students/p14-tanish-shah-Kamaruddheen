@@ -72,16 +72,40 @@ function checkForWinner() {
 
 function newGame() {
 	// TODO: Complete the function
+
+	clearTimeout(computerMoveTimeout)
+	setTimeout.computerMoveTimeout = 0
+
+	for (let button of getGameBoardButtons()) {
+		buttons.innerHTML = ""
+		buttons.disabled = false
+		buttons.className = ""
+	}
+
+	playerTurn = true
+	document.getElementById("turnInfo").innerHTML = "Your turn"
 }
 
 function boardButtonClicked(button) {
 	// TODO: Complete the function
+
+	if (playerTurn) {
+		button.target.innerHTML = "X"
+		button.target.className += "x"
+		button.target.disabled = true
+	}
+
+	switchTurn()
 }
 
 function switchTurn() {
-	// TODO: Complete the function
+	// TODO: Complete the function		
+	checkForWinner()
+
+	// 
 }
 
 function makeComputerMove() {
 	// TODO: Complete the function
+
 }
