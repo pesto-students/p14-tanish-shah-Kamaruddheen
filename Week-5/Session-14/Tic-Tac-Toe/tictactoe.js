@@ -77,9 +77,9 @@ function newGame() {
 	setTimeout.computerMoveTimeout = 0
 
 	for (let button of getGameBoardButtons()) {
-		buttons.innerHTML = ""
-		buttons.disabled = false
-		buttons.className = ""
+		button.innerHTML = ""
+		button.disabled = false
+		button.className = ""
 	}
 
 	playerTurn = true
@@ -100,12 +100,67 @@ function boardButtonClicked(button) {
 
 function switchTurn() {
 	// TODO: Complete the function		
-	checkForWinner()
+	let gameStatusValue = checkForWinner()
 
-	// 
+	if (gameStatusValue === 1) {
+		// If more moves are left
+
+		if (playerTurn) {
+			// delaying 1000 milliseconds to make player think like computer is taking so much
+			computerMoveTimeout = setTimeout(makeComputerMove(), 1000) 		
+			playerTurn = false
+			document.getElementById("turnInfo").innerHTML = "Your turn"
+		} else {
+			playerTurn = true
+			document.getElementById("turnInfo").innerHTML = "Computer's turn"
+
+		}				
+
+	}
+	
+	if (gameStatusValue > 1) {
+		// To prevent the user from being able to place an X after the game is over
+		playerTurn = false
+
+		switch (gameStatusValue) {
+			case 2:
+				document.getElementById("turnInfo").innerHTML = "You win!"
+				break;
+			
+			case 3:
+				document.getElementById("turnInfo").innerHTML = "Computer wins!"
+				break;
+			
+			case 4:
+				document.getElementById("turnInfo").innerHTML = "Draw game"
+				break;
+		
+			default:
+				break;
+		}
+	}
 }
 
 function makeComputerMove() {
 	// TODO: Complete the function
 
+	// TODO: Random generation needs to be improved
+
+	let empty_buttons = []
+
+	// sorting the avaialbe buttons for computer to choose randomly
+	for (let button of getGameBoardButtons()) {
+		if (!button.innerHTML) {
+			empty_buttons.push(button)
+		}
+	}
+
+	let random_button = Math.random() * 0 // 0 to 9
+	
+	empty_buttons[random_button].target.innerHTML = "O"
+	empty_buttons[random_button].target.className = "o"
+	empty_buttons[random_button].target.disabled = true	
+
+	// switch back to the player's turn
+	switchTurn()
 }
