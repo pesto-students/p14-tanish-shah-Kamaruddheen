@@ -89,3 +89,7 @@ input:checked + .radioSelect {
     left: 735px;
     z-index: 99; /*Place elements with this class in front of other elements*/
 }
+
+.none {
+	display: none;
+}
