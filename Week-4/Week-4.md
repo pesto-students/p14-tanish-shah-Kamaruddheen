@@ -9,3 +9,6 @@
   - [JavaScript game object](Session-11/Game_Object/index.html)
   - [Practice: OOPS ES6](Session-11/OOPS_Practice_ES6/index.html)
   - [Practice: Prototype & Object](Session-11/Prototype/index.html)
+
+- Session 12
+  - [Async Await Exchange Rates](Session-12/AsyncAwait/index.html)
