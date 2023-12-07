@@ -20,4 +20,9 @@
 ### Session 3: Problem Solving on Arrays
 
   - [Old Key New Key](Session-3/change_old_with_new_key.js)
+  - [Transpose a matrix](Session-3/transpose.js)
+  - [Spiral Order Traversal in Array](Session-3/spiral_order.js)
+  - [Trapping Rain Water](Session-3/trappingRainWater.js)
+  - [Sum of Two Matrix](Session-3/sumOfTwoMatrices.js)
+  - [Max Product of a Subarray](Session-3/maxProductSubarray.js)
   - [Delete elements in an array](Session-3/del_element_array.js)

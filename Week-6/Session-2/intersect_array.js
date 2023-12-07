@@ -3,11 +3,11 @@ function findIntersection(arr1, arr2) {
 
   let intersect = [];
 
-  for (let i = 0; i < arr1.length; i++) {
-    for (let j = 0; j < arr2.length; j++) {
+  for (let i = 0; i < arr2.length; i++) {
+    for (let j = 0; j < arr1.length; j++) {
       // console.log(arr[i], arr[j])
-      if (arr1[i] == arr2[j]) {
-        if (!intersect.includes(arr1[i])) intersect.push(arr1[i]);
+      if (arr2[i] == arr1[j]) {
+        if (!intersect.includes(arr2[i])) intersect.push(arr2[i]);
         break;
       }
     }

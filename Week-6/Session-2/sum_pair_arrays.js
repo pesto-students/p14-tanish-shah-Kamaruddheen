@@ -1,5 +1,5 @@
 function findSumPairs(arr, targetSum) {
-  // PLACEHOLDER_JAVASCRIPT_FIND_SUM_PAIRS_BODY\n
+  // PLACEHOLDER_JAVASCRIPT_FIND_SUM_PAIRS_BODY
   let pairs = [];
 
   for (let i = 0; i < arr.length; i++) {
