@@ -5,12 +5,12 @@
 - [Longest Palindromic Substring](Session-4/longestPalindromicSubstring.js)
 - [Longest Subarray with Equal Number of Vowels and Consonants](Session-4/longestSubarrayWithEqualVowelsAndConsonants.js)
 - [First Non Repeating Element](Session-4/firstNonRepeatingElement.js)
-- [Cuckoo Hashing](Session-4/cuckooHashing.js)
+- [Cuckoo Hashing](Session-4)
 
 ### Session 5: Problem Solving on Hashing
 
-- [Group Anagrams](Session-5)
-- [Check for Duplicates using Hashing](Session-5)
+- [Group Anagrams](Session-5/groupAnagrams.js)
+- [Check for Duplicates using Hashing](Session-5/checkDuplicates.js)
 - [Find the First Non-Repeating Character](Session-5)
 - [Subarray with Sum K Hashing](Session-5)
 - [Four Sum](Session-5)
