@@ -3,9 +3,9 @@
 - [Longest Subarray with Equal Number of 0s and 1s](Session-4/findLongestSubarray.js)
 - [Longest Consecutive Subsequence](Session-4/findLongestConsecutiveSubsequence.js)
 - [Longest Palindromic Substring](Session-4/longestPalindromicSubstring.js)
-- [Longest Subarray with Equal Number of Vowels and Consonants](Session-4)
-- [First Non Repeating Element](Session-4)
-- [Cuckoo Hashing](Session-4)
+- [Longest Subarray with Equal Number of Vowels and Consonants](Session-4/longestSubarrayWithEqualVowelsAndConsonants.js)
+- [First Non Repeating Element](Session-4/firstNonRepeatingElement.js)
+- [Cuckoo Hashing](Session-4/cuckooHashing.js)
 
 ### Session 5: Problem Solving on Hashing
 
