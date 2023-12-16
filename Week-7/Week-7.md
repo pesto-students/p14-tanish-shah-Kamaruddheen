@@ -11,12 +11,12 @@
 
 - [Group Anagrams](Session-5/groupAnagrams.js)
 - [Check for Duplicates using Hashing](Session-5/checkDuplicates.js)
-- [Find the First Non-Repeating Character](Session-5)
-- [Subarray with Sum K Hashing](Session-5)
-- [Four Sum](Session-5)
-- [Maximum Points on a Line](Session-5)
+- [Find the First Non-Repeating Character](Session-5/findFirstNonRepeatingCharacter.js)
+- [Subarray with Sum K Hashing](Session-5/hasSubarrayWithSumK.js)
+- [Four Sum](Session-5/fourSum.js)
+- [Maximum Points on a Line](Session-5/maxPointsOnLine.js)
 - [Minimum Window Substring](Session-5)
-
+****
 ### Session 6: Recursion Basics and Recursive Algorithms
 
 - [All Indices in Array using Recursion](Session-6)
