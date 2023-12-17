@@ -15,8 +15,8 @@
 - [Subarray with Sum K Hashing](Session-5/hasSubarrayWithSumK.js)
 - [Four Sum](Session-5/fourSum.js)
 - [Maximum Points on a Line](Session-5/maxPointsOnLine.js)
-- [Minimum Window Substring](Session-5)
-****
+- [Minimum Window Substring](Session-5/minWindowSubstring.js)
+
 ### Session 6: Recursion Basics and Recursive Algorithms
 
 - [All Indices in Array using Recursion](Session-6)
