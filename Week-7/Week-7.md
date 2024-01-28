@@ -5,7 +5,7 @@
 - [Longest Palindromic Substring](Session-4/longestPalindromicSubstring.js)
 - [Longest Subarray with Equal Number of Vowels and Consonants](Session-4/longestSubarrayWithEqualVowelsAndConsonants.js)
 - [First Non Repeating Element](Session-4/firstNonRepeatingElement.js)
-- [Cuckoo Hashing](Session-4)
+- [Cuckoo Hashing](Session-4) (Not Finished)<!-- (high level alogrithm) -->
 
 ### Session 5: Problem Solving on Hashing
 
@@ -19,6 +19,6 @@
 
 ### Session 6: Recursion Basics and Recursive Algorithms
 
-- [All Indices in Array using Recursion](Session-6)
-- [Subsequence using Recursion](Session-6)
-- [N-Queens](Session-6)
+- [All Indices in Array using Recursion](Session-6/indicesMain.js)
+- [Subsequence using Recursion](Session-6/subsequenceMain.js)
+- [N-Queens](Session-6/nQueens.js)
