@@ -1,1 +1,22 @@
+### Session 7: Recursion - Exploring Advanced Concepts
 
+- [String Reversal using Recursion](Session-7/reverseString.js)
+- [Exponentiation using Recursion](Session-7/exponentiation.js)
+- [First Index of Occurrence using Recursion](Session-7)
+- [Power Set using Recursion](Session-7)
+
+### Session 8: Sorting - Exploring Fundamental Sorting Algorithms and Their Applications
+
+- [Sort Array of Strings by Number of Vowels](Session-8)
+- [Sort Array of Strings by Length in Descending Order](Session-8)
+- [Sort Array of Numbers in Descending Order](Session-8)
+- [Sort Array of Strings Alphabetically](Session-8)
+- [Implement Merge Sort](Session-8)
+
+### Session 9: Sorting - Beyond Basics - Performance and Real-World Scenarios
+
+- [Sort Array of Dates in Chronological Order](Session-9)
+- [Counting Sort - Sort Array of Positive Integers in Ascending Order](Session-9)
+- [Implement Bucket Sort](Session-9)
+- [Topological Sort algorithm](Session-9)
+- [Shell Sort for Sorting Dates](Session-9)
